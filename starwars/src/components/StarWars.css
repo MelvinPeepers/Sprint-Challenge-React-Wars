@@ -8,3 +8,26 @@
     width: 400px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   }
+
+  .char-info {
+    margin: 0 auto;
+    text-align: left;
+}
+
+  .char-info h2 {
+    color: #FFE302;
+}
+
+  .char-list {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  span {
+      font-weight: bold;
+  }
+
+  .char-border {
+      border: 5px dash blue;
+  }
