@@ -26,11 +26,26 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React.js is a JavaScript library.
+
+Apps created in React can handle complex updates and still feel quick and responsive. You can create many small, reusable files  which helps with maintainability.
+
+React is great for large programs that display a lot of changing data.
+
 - [ ] What does it mean to _think_ in react?
+
+React is very modular, so when you’re building a React app you want to break the UI into components and give them a hierarchy.  
+You can build from the top-down or the bottom-up. For small projects, it’s easier to build top-down, for larger projects, it’s easier to build bottom-up.
 
 - [ ] Describe state.
 
+State is a fancy term for data that we have available in our application. You can think of state as the data your components need, 
+and the ability your components have to update/access data that would need to be displayed by the component itself.
+
+
 - [ ] Describe props.
+
+Props are a way to pass data from parent to child.
 
 ## Project Set Up
 
