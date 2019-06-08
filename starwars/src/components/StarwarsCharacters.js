@@ -1,14 +1,15 @@
 import React from 'react';
 import Character from './Character';
 
-class StarwarsCharacters extends React.Component {
-    render() {
-        return (
-            <div className="class-list">
-          
-            </div>
-        );
-    }
-}
+const StarwarsCharacters = props => {
+  return (
+    <div className="char-list">
+    {props.swList.map(charList => (
+        <Character charInfo={charList}
+        />
+      ))}
+    </div>
+  );
+};
 
 export default StarwarsCharacters;

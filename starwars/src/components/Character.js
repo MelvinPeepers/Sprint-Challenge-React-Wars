@@ -1,13 +1,13 @@
 import React from 'react';
 
-function Character(props) {
+const Character = props => {
     return (
-        <div>
-            
+        <div className="char-card">
+            <h2>{props.charInfo.name}</h2>
         </div>
     );
 }
 
 
 
-export default CharacterData;
+export default Character;
