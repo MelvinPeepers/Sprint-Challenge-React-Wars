@@ -1,11 +1,14 @@
 import React from 'react';
+import Character from './Character';
 
-class StartwarsCharacters extents React.Component {
+class StarwarsCharacters extends React.Component {
     render() {
         return (
-
+            <div className="class-list">
+          
+            </div>
         );
     }
 }
 
-export default StartwarsCharacters;
+export default StarwarsCharacters;
