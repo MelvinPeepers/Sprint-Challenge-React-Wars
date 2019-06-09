@@ -1,9 +1,10 @@
+
 .char-card {
     background: #fff;
     border-radius: 2px;
     display: flex;
-    max-height: 200px;
-    margin: 1rem;
+    max-height: 300px;
+    margin: 0.5rem;
     padding: 1rem;
     width: 400px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -11,11 +12,23 @@
 
   .char-info {
     margin: 0 auto;
-    text-align: left;
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
   .char-info h2 {
+    font-size: 3rem;
     color: #FFE302;
+    line-height: 1.3;
+    margin-top: 0;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.char-info p {
+    margin: 10px 0;
 }
 
   .char-list {
@@ -26,8 +39,4 @@
 
   span {
       font-weight: bold;
-  }
-
-  .char-border {
-      border: 5px dash blue;
   }
