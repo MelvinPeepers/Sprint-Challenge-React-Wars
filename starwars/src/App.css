@@ -1,8 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+  font-family: 'Titillium Web', sans-serif;
+}
+
 .App {
   text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
 }
 .Header {
+  width: 100%;
+  height: 100%;
   color: #443e3e;
+  font-size: 4rem;
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
