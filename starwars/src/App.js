@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import StarwarsCharacters from './components/StarwarsCharacters'; 
-import './App.css';
-import './components/StarWars.css';
+import React, { Component } from "react";
+import StarwarsCharacters from "./components/StarwarsCharacters";
+import "./App.css";
+import "./components/StarWars.css";
 
 class App extends Component {
   constructor() {
@@ -12,7 +12,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.getCharacters('https://swapi.co/api/people/');
+    this.getCharacters("https://swapi.co/api/people/");
   }
 
   getCharacters = URL => {
@@ -35,7 +35,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">Star Wars Characters and Attributes:</h1>
-        <StarwarsCharacters swList={this.state.starwarsChars}/>
+        <StarwarsCharacters swList={this.state.starwarsChars} />
       </div>
     );
   }
